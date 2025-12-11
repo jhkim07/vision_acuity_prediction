@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyTorch Models (too large for git)
+*.pth
+*.pt
+*.ckpt
+*.pkl
+
+# Data directories (too large)
+va_datasets/
+preprocessed_va_datasets/
+data/
+combined_dataset/
+data_split/
+data_split_v2/
+output_datasets/
+cnn_models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dropbox conflicts
+*conflicted copy*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
